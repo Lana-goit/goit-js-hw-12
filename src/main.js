@@ -24,13 +24,12 @@ let currentPage = 1;
 let totalPages = 0;
 const PAGE_SIZE = 15;
 
-// ==========================================
 refs.formElem.addEventListener('submit', onFormSubmit);
 
 async function onFormSubmit(e) {
   e.preventDefault();
   query = e.target.elements.query.value.trim();
-  // showSpinner();
+
   currentPage = 1;
   refs.articleListElem.innerHTML = '';
 

@@ -152,7 +152,7 @@
 }
 
 .loader::after {
-  content: 'Loading';
+  /* content: 'Loading'; */
   position: absolute;
   left: 0;
   top: 0;
